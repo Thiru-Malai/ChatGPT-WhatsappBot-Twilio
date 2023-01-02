@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: openai
+Version: 0.25.0
+Summary: Python client library for the OpenAI API
+Home-page: https://github.com/openai/openai-python
+Author: OpenAI
+Author-email: support@openai.com
+Requires-Python: >=3.7.1
+License-File: LICENSE
+Requires-Dist: requests (>=2.20)
+Requires-Dist: tqdm
+Requires-Dist: pandas (>=1.2.3)
+Requires-Dist: pandas-stubs (>=1.1.0.11)
+Requires-Dist: openpyxl (>=3.0.7)
+Requires-Dist: numpy
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: black (~=21.6b0) ; extra == 'dev'
+Requires-Dist: pytest (==6.*) ; extra == 'dev'
+Provides-Extra: embeddings
+Requires-Dist: scikit-learn (>=1.0.2) ; extra == 'embeddings'
+Requires-Dist: tenacity (>=8.0.1) ; extra == 'embeddings'
+Requires-Dist: matplotlib ; extra == 'embeddings'
+Requires-Dist: sklearn ; extra == 'embeddings'
+Requires-Dist: plotly ; extra == 'embeddings'
+Provides-Extra: wandb
+Requires-Dist: wandb ; extra == 'wandb'
+
