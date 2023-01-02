@@ -1,5 +1,4 @@
 # Whatsapp ChatGPT Bot Twilio
-ChatGPT Twilio Whatsapp Bot OpenAI 🤖
 
 WhatsApp ChatGPT is a chatbot that uses the Twilio API to send and receive messages via WhatsApp. It is built using the OpenAI GPT-3 language model, which allows the chatbot to understand and generate human-like responses to user messages.
 
