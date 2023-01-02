@@ -1,5 +1,5 @@
 # Whatsapp ChatGPT Bot Twilio
-ChatGPT Twilio Whatsapp Bot OpenAI
+ChatGPT Twilio Whatsapp Bot OpenAI 🤖
 
 WhatsApp ChatGPT is a chatbot that uses the Twilio API to send and receive messages via WhatsApp. It is built using the OpenAI GPT-3 language model, which allows the chatbot to understand and generate human-like responses to user messages.
 
@@ -23,7 +23,7 @@ Choose your's based on your Twilio Account
  
 REQUIREMENTS:
  1. TWILIO ACCOUNT
- 2. TWILIO - ACCOUNT SID AND AUTH TOKEN
+ 2. TWILIO  - ACCOUNT SID AND AUTH TOKEN
  3. OPEN AI - API-KEY
 
 Twilio - https://www.twilio.com/
@@ -56,3 +56,33 @@ INSTALLATION OVERVIEW:
  
 
 INSTALLATION PROCESS:
+
+TWILIO SETUP:
+ 1. Go to https://www.twilio.com/
+ 2. Go to Messageing -> Send A Whatsapp Message Continue With The Steps Given Below
+ ![image](https://user-images.githubusercontent.com/73980589/210245763-3b014e7a-1329-4556-83fa-6efa29164391.png)
+ 
+ 3. You have connected your account.
+ 4. Then go to Settings -> Whatsapp Sandbox Settings -> Paste your bot hosted link in When A Message Comes In.
+ 5. Paste your http link followed by /bot ( In Code )
+ 
+
+PROCESS:
+
+ 1. $ mkdir ChatGPT
+ 2. $ cd ChatGPT
+ 3. $ python3 -m venv venv ( or python )
+ 4. $ venv\Scripts\activate
+    or
+    $ source venv/bin/activate
+ 5. (venv) $ pip install openai twilio flask
+ 6. Create file main.py
+ 7. Paste the code from the repository
+ 8. Use your OPEN-API KEY, TWILIO ACCOUNT SID AND TWILIO AUTH TOKEN
+
+
+HOSTING THE BOT:
+
+You can host the bot 24/7 in pythonanywhere.com with the similar steps.
+
+Hope It Helps ❤️!
