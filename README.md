@@ -7,6 +7,7 @@ ChatGPT Twilio Whatsapp Bot OpenAI 🤖
 ![OPEN](https://user-images.githubusercontent.com/73980589/210248765-b4f9b0cb-2a76-418d-a55d-373e8937075d.png)
 
 
+![image](https://user-images.githubusercontent.com/73980589/210487579-a61b1afe-bf56-4514-87a3-9c3f9401bc22.png)
 
 Here is a general outline of how a WhatsApp ChatGPT bot may work:
 
