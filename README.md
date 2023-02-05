@@ -93,3 +93,5 @@ You can host the bot 24/7 in pythonanywhere.com with the similar steps.
 
 Hope It Helps ❤️!
 
+Enjoying It?
+Please donate https://www.buymeacoffee.com/thirumalaikg 💞
